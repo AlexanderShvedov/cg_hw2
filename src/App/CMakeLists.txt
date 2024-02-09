@@ -6,9 +6,10 @@ set(SRCS
     Shaders/diffuse.fs
     Shaders/diffuse.vs
     Textures/voronoi.png
-
+    thirdparty/glm
+        thirdparty/tinygltf
     resources.qrc
-)
+        camera.cpp camera.h mainwindow.cpp mainwindow.h)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 

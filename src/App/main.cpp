@@ -1,7 +1,7 @@
 #include <QApplication>
 #include <QSurfaceFormat>
 
-#include "Window.h"
+#include "mainwindow.h"
 
 namespace
 {
@@ -24,7 +24,7 @@ int main(int argc, char ** argv)
 	QSurfaceFormat::setDefaultFormat(format);
 
 	// Now create window.
-	Window window;
+	MainWindow window;
 	window.resize(640, 480);
 	window.show();
 
